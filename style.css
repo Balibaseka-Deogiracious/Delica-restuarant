@@ -29,6 +29,9 @@ nav a{
     background-color: orange;
     color: white;
     border-color: orange;
+    width: 200px;
+    height: 40px;
+    font-weight: 600;
 }
 .lib{
     display: flex;
