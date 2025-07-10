@@ -4,6 +4,10 @@
     text-decoration:none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 header{
     align-items: center;
     justify-content: space-between;
