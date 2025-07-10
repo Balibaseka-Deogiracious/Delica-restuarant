@@ -1,0 +1,306 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-decoration:none;
+}
+
+header{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+
+
+}
+nav a{
+    justify-content: space-around;
+    margin-left: 30px;
+
+}
+
+.logo{
+    color: orange;
+    margin-left: 50px;
+}
+
+.log{
+    color: orange;
+}
+.bttn{
+    background-color: orange;
+    color: white;
+    border-color: orange;
+}
+.lib{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(bg-hero.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-color: rgb(39, 39, 61);
+    color: white;
+    width: 100%;
+    height: 100vh;
+    
+}
+.love img{
+    width:500px;
+    height: 500px;
+}
+.do h1{
+    margin-top: 20px;
+}
+
+.bttn{
+    margin-top: 20px;
+}
+.ttn{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(223, 217, 233);
+    text-align: center;
+    
+}
+.shop{
+    background-color: orange;
+    color: white;
+    margin-top: 20px;
+    border-color: orange;
+}
+.small{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(58, 45, 45);
+    color: white;
+}
+.peen {
+    width: 700px;
+    height: 700px;
+    display: flex;
+    
+    margin-left: 20px;
+}
+.deen{
+    width: 700px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.boy{
+    width: 700px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+
+}
+.gal{
+    width: 700px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+ 
+}
+.pal{
+    height: 50vh;
+    background-color: rgb(18, 15, 27);
+}
+
+.bad{
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+.fad{
+    color: white;
+}
+.nay{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.leo{
+    background-color: white;
+    border-color: orange;
+}
+.toy{
+    background-color: orange;
+    color: white;
+    margin-top: 10px;
+    border-color: orange;
+}
+.pet{
+    align-items: center;
+    margin-top: 20px;
+    }
+    .lem{
+        line-height: 30px;
+        color: white;
+    }
+    .lon{
+        line-height: 30px;
+        color: white;
+    }
+    .per{
+        line-height: 30px;
+        color: white;
+    }
+    .pit{
+        color: orange;
+    }
+    .pel{
+        color: orange;
+    }
+    .mar{
+        color: orange;
+    }
+    .lam{
+        color: orange;
+    }
+    .pon{
+        color: white;
+    }
+
+    /*Menu starts here*/
+
+    .services{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(202, 202, 221);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .ourmenu{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+    .menu001{
+        width: 300px;
+        height: 200px;
+        background-color: rgb(20, 14, 14);
+        color: white;
+    }
+
+.menu001 img{
+    width:120px;
+    padding-top: 20px
+}
+
+.p{
+    margin-top: 10px;
+}
+
+.lee{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(20, 14, 14);
+}
+
+.plee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 40px;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-top: 80px;
+    background-color: orange;
+    margin-left: 500px;
+    margin-right: 300px;
+    height: 400px;
+    border-radius: 40px;
+    width:300px;
+    box-shadow: 0 0 70px #FDCA92
+}
+.lit{
+    padding-left: 60px;
+    border-radius: 60px;
+}
+.image{
+    display: none;
+}
+
+.live{
+    color: black;
+}
+
+.bot{
+    color: white;
+    background-color: orange;
+    margin-bottom: 10px;
+    border-color: orange;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .image{
+        display: flex;
+    }
+    nav a{
+        justify-content: space-around;
+        margin-left: 30px;
+        display: none;}
+         .love img{
+            width:350px;
+            height: 350px;
+         }
+         .lib{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-image: url(bg-hero.jpg);
+            background-size: cover;
+            background-blend-mode: multiply;
+            background-color: rgb(39, 39, 61);
+            color: white;
+            width: 100%;
+            height: 100vh;
+            flex-direction: column-reverse;
+            text-wrap: balance;
+         }
+         .ttn{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            background-color:rgb(223, 217, 233);
+            text-align: center;
+            flex-direction: column-reverse;
+            
+        }
+
+        .hotelimage img{
+            width: 100%;
+            height: 50vh;
+        }
+
+        .ourmenu{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    .nay{
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+        
+
+
+}
